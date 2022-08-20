@@ -1,0 +1,76 @@
+/* Global Declarations */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+
+/* Outer container section */
+
+.outer-container {
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.top-bar button {
+    background-color: mediumpurple;
+}
+
+.top-bar p {
+    float: right;
+    color: mediumpurple;
+}
+
+/* Inner container section */
+
+.inner-container {
+    background: white;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* quiz intro section */
+
+.quiz-intro, main {
+    margin-bottom: 30vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header h1 {
+    color: mediumpurple;
+}
+
+.quiz-intro p {
+    text-align: center;
+}
+
+.quiz-intro button {
+    display: block;
+    margin: 0 auto;
+    background-color: mediumpurple;
+}
+
+/* question sreen */
+
+.question-screen {
+    display: none;
+}
+
+/* quiz finish screen */
+
+.finish-screen {
+    display: none;
+}
