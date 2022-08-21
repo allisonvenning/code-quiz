@@ -1,15 +1,11 @@
-
-// var buttonEl = document.querySelector("#start-quiz");
-// console.log(buttonEl);
-
-// buttonEl.addEventListener("click", function() {
-//     var switchScreen = 
-// })
+// Get document elements //
 
 const startButton = document.getElementById('start-quiz')
 const questionScreenElement = document.getElementById('question-screen')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
+
+// Start quiz //
 
 startButton.addEventListener('click', startQuiz)
 
@@ -27,6 +23,8 @@ function setNextQuestion() {
 function selectAnswer() {
 
 }
+
+// Questsions list //
 
 const questions = [ {
     question: "True or False: Functions can be passed as arguments to other functionsl",
