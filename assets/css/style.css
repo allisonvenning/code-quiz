@@ -5,11 +5,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: white;
-}
-
-
 /* Outer container section */
 
 .outer-container {
@@ -22,6 +17,7 @@ body {
 
 .top-bar button {
     background-color: mediumpurple;
+    color: white;
 }
 
 .top-bar p {
@@ -32,13 +28,19 @@ body {
 /* Inner container section */
 
 .inner-container {
-    background: white;
-    height: 100%;
+    background-color: white;
+    height: 100vh;
     width: 50%;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    /* border-color: mediumpurple;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px mediumaquamarine; */
 }
 
 /* quiz intro section */
@@ -61,16 +63,58 @@ header h1 {
     display: block;
     margin: 0 auto;
     background-color: mediumpurple;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
 }
 
 /* question sreen */
 
 .question-screen {
-    display: none;
+    background-color: white;
+    height: 100vh;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-screen button {
+    background-color: mediumpurple;
+}
+
+li {
+    list-style: none;
 }
 
 /* quiz finish screen */
 
 .finish-screen {
+    height: 100vh;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.finish-screen h2 {
+    color: mediumpurple;
+}
+
+.finish-screen button {
+    background-color: mediumpurple;
+    color: white;
+}
+
+/* Highscores screen */
+
+.highscores-screen {
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+.hide {
     display: none;
 }
